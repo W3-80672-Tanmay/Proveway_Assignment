@@ -154,8 +154,17 @@
       <strong>Total: <span id="total">$0.00 USD</span></strong>
     </div>
 
-    <button class="add-to-cart">+ Add to Cart</button>
+    <button class="add-to-cart" onclick="showModal()">+ Add to Cart</button>
+
+    <div id="thankYouModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p>Thank you for seeing my assignment!</p>
+        </div>
+      </div>
   </div>
+
+
 
   <script src="Boxes.js"></script>
 </body>
