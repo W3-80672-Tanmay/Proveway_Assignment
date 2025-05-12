@@ -13,7 +13,7 @@
     <!-- Box 1 -->
     <div class="card" onclick="toggleBox(1)">
       <div class="card-header">
-        <input type="radio" name="unit" />
+        <input type="radio"  name="unit"  onclick="updateCartTotal(10)" />
         <div class="info">
           <span class="tag red">40% Off</span>
           <div class="price-line">
@@ -60,7 +60,7 @@
      <!-- Box 2 -->
      <div class="card" onclick="toggleBox(2)">
         <div class="card-header">
-          <input type="radio" name="unit" />
+          <input type="radio" name="unit" onclick="updateCartTotal(18)" />
           <div class="info">
             <span class="tag red">50% Off</span>
             <div class="price-line">
@@ -107,7 +107,7 @@
        <!-- Box 3 -->
     <div class="card" onclick="toggleBox(3)">
         <div class="card-header">
-          <input type="radio" name="unit" />
+          <input type="radio" name="unit" onclick="updateCartTotal(20)" />
           <div class="info">
             <span class="tag dark">10% Off</span>
             <div class="price-line">
@@ -151,7 +151,7 @@
       </div>
     <div class="footer">
       <p>Free Delivery</p>
-      <strong>Total: $18.00 USD</strong>
+      <strong>Total: <span id="total">$0.00 USD</span></strong>
     </div>
 
     <button class="add-to-cart">+ Add to Cart</button>

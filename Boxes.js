@@ -15,3 +15,7 @@ function toggleBox(boxId) {
     }
   }
   
+  function updateCartTotal(price) {
+    const totalSpan = document.getElementById("total");
+    totalSpan.textContent = `$${price.toFixed(2)} USD`;
+  }
