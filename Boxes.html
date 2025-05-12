@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Interactive BOGO Boxes</title>
+  <title>Proveway Boxes</title>
   <link rel="stylesheet" href="Boxes.css" />
 </head>
 <body>
@@ -15,13 +15,13 @@
       <div class="card-header">
         <input type="radio" name="unit" />
         <div class="info">
-          <span class="tag red">10% Off</span>
+          <span class="tag red">40% Off</span>
           <div class="price-line">
-            <strong>1 Unit</strong>
+            <strong>1 Pair</strong>
             <span class="price">$10.00 USD</span>
             <span class="old-price">$24.00 USD</span>
           </div>
-          <p>Standard Price</p>
+          <!-- <p>Standard Price</p> -->
         </div>
       </div>
       <div class="card-body" id="box1">
@@ -57,7 +57,98 @@
     </div>
 
 
+     <!-- Box 2 -->
+     <div class="card" onclick="toggleBox(2)">
+        <div class="card-header">
+          <input type="radio" name="unit" />
+          <div class="info">
+            <span class="tag red">50% Off</span>
+            <div class="price-line">
+              <strong>2 pair</strong>
+              <span class="price">$18.00 USD</span>
+              <span class="old-price">$36.00 USD</span>
+            </div>
+            <!-- <p>Standard Price</p> -->
+          </div>
+        </div>
+        <div class="card-body" id="box2">
+          <div class="option-row">
+              <span style="
+      font-size: 10px;
+      align-items: end;
+  ">#1</span>
+            <div class="option">
+              <label>Size</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="option">
+              <label>Color</label>
+              <select><option>Black</option><option>Red</option><option>Blue</option></select>
+            </div>
+          </div>
+          <div class="option-row">
+              <span style="
+              font-size: 10px;
+              align-items: end;
+          ">#2</span>
+              <div class="option">
+          
+                <select><option>S</option><option>M</option><option>L</option></select>
+              </div>
+              <div class="option">
+                
+                <select><option>Black</option><option>Red</option><option>Blue</option></select>
+              </div>
+            </div>
+        </div>
+      </div>
 
+
+       <!-- Box 3 -->
+    <div class="card" onclick="toggleBox(3)">
+        <div class="card-header">
+          <input type="radio" name="unit" />
+          <div class="info">
+            <span class="tag dark">10% Off</span>
+            <div class="price-line">
+              <strong>3 Pair</strong>
+              <span class="price">$20.00 USD</span>
+              <span class="old-price">$24.00 USD</span>
+            </div>
+            <!-- <p>Standard Price</p> -->
+          </div>
+        </div>
+        <div class="card-body" id="box3">
+          <div class="option-row">
+              <span style="
+      font-size: 10px;
+      align-items: end;
+  ">#1</span>
+            <div class="option">
+              <label>Size</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="option">
+              <label>Color</label>
+              <select><option>Black</option><option>Red</option><option>Blue</option></select>
+            </div>
+          </div>
+          <div class="option-row">
+              <span style="
+              font-size: 10px;
+              align-items: end;
+          ">#2</span>
+              <div class="option">
+          
+                <select><option>S</option><option>M</option><option>L</option></select>
+              </div>
+              <div class="option">
+                
+                <select><option>Black</option><option>Red</option><option>Blue</option></select>
+              </div>
+            </div>
+        </div>
+      </div>
     <div class="footer">
       <p>Free Delivery</p>
       <strong>Total: $18.00 USD</strong>
